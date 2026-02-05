@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.landscape {      
+    margin: 0;                              
+    padding: 0;                            
+    height: auto;                         
+    width: 1710px;  
+}
+
+.doghouse {
+    position: absolute;
+    top:630px;
+    left:40px;
+    height:150px;
+    width: auto;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    background-color: #477338;
+    width: 1710px;
+    height: 100px;
+    bottom: 1vh;
+}
+
+#speechbubble {
+    position: absolute;
+    top: 615px;
+    right:165px;
+    height: 40px;
+    width: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+#chihuahua {
+    position:absolute;
+    transform: scaleX(-1);
+    top:630px;
+    right:90px;
+    height:60px;
+    width:auto;
+}
+
+#chihuahua:hover + #speechbubble {
+    opacity: 1;
+}

@@ -1,0 +1,72 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.landscape {      
+    margin: 0%;                              
+    padding: 0%;                            
+    height: auto;                         
+    width: 1710px;  
+}
+
+.dotson {
+    position: absolute;
+    top:660px;
+    left:50px;
+    height:70px;
+    width: auto;
+}
+
+.germansheppard {
+    position: absolute;
+    transform: scaleX(-1);
+    top:670px;
+    left:280px;
+    height:140px;
+    width: auto;
+}
+
+.corgi {
+    position: absolute;
+    top:665px;
+    left:615px;
+    height:75px;
+    width: auto;
+}
+
+.shibainu {
+    position: absolute;
+    transform: scaleX(-1);
+    top:690px;
+    left:870px;
+    height:100px;
+    width: auto;
+}
+
+.chihuahua {
+    position: absolute;
+    transform: scaleX(-1);
+    top:630px;
+    left:1150px;
+    height:60px;
+    width: auto;
+}
+
+.bordercollie {
+    position: absolute;
+    transform: scaleX(-1);
+    top:657px;
+    left:1430px;
+    height:110px;
+    width: auto;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    background-color: #477338;
+    width: 1710px;
+    height: 100px;
+    bottom: 1vh;
