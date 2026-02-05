@@ -9,7 +9,8 @@ html, body{
     margin: 0%;                              
     padding: 0%;                            
     height: auto;                         
-    width: 1710px;  
+    width: 1710px; 
+    position: fixed; 
 }
 
 .dotson {
