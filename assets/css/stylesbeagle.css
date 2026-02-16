@@ -1,0 +1,75 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.landscape {      
+    margin: 0;                              
+    padding: 0;                            
+    height: auto;                         
+    width: 1710px;  
+}
+
+.doghouse {
+    position: absolute;
+    top:630px;
+    left:40px;
+    height:150px;
+    width: auto;
+}
+
+#note {
+    position: absolute;
+    top:150px;
+    left:600px;
+    height: 600px;
+    width: auto;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    background-color: #477338;
+    width: 1710px;
+    height: 100px;
+    bottom: 1vh;
+}
+
+#speechbubble {
+    position: absolute;
+    top: 720px;
+    left:250px;
+    height: 50px;
+    width: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+#beagle {
+    position:absolute;
+    transform: scaleX(-1);
+    top:750px;
+    left:320px;
+    height:90px;
+    width:auto;
+}
+
+#beagle:hover + #speechbubble {
+    opacity: 1;
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url('/assets/pixel.ttf')  format('truetype');
+  }
+#main-paragraph{
+    color:rgb(0, 0, 0); 
+    font-size:30px; 
+    font-family:pixel;
+    position:absolute;
+    top:60px;
+    left:100px;
+    }

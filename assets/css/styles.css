@@ -1,3 +1,5 @@
+
+
 html, body{
     height: 100%;
     width: 100%;
@@ -9,8 +11,8 @@ html, body{
     margin: 0%;                              
     padding: 0%;                            
     height: auto;                         
-    width: 1710px; 
-    position: fixed; 
+    width: 1710px;
+    position: relative;  
 }
 
 .dotson {
@@ -24,25 +26,26 @@ html, body{
 .germansheppard {
     position: absolute;
     transform: scaleX(-1);
-    top:670px;
-    left:280px;
+    top:700px;
+    left:240px;
     height:140px;
     width: auto;
 }
 
 .corgi {
     position: absolute;
-    top:665px;
-    left:615px;
+    top:662px;
+    left:540px;
     height:75px;
     width: auto;
 }
 
+/*shiba inu = basenji*/
 .shibainu {
     position: absolute;
     transform: scaleX(-1);
-    top:690px;
-    left:870px;
+    top:715px;
+    left:770px;
     height:100px;
     width: auto;
 }
@@ -51,17 +54,52 @@ html, body{
     position: absolute;
     transform: scaleX(-1);
     top:630px;
-    left:1150px;
+    left:1010px;
     height:60px;
     width: auto;
 }
 
+/*border collie = shiba inu*/
 .bordercollie {
     position: absolute;
     transform: scaleX(-1);
-    top:657px;
-    left:1430px;
+    top:720px;
+    left:1470px;
     height:110px;
+    width: auto;
+}
+
+.beagle {
+    position: absolute;
+    top:675px;
+    left:1250px;
+    height:85px;
+    width: auto;
+}
+.ball {
+    position: absolute;
+    transform: rotate(15deg);
+    top:635px;
+    left:1590px;
+    height:65px;
+    width: auto;
+}
+
+.collar {
+    position: absolute;
+    transform: rotate(-10deg);
+    top:790px;
+    left:580px;
+    height:75px;
+    width: auto;
+}
+
+.bone {
+    position: absolute;
+    transform: rotate(45deg);
+    top:755px;
+    left:1050px;
+    height:65px;
     width: auto;
 }
 
@@ -73,3 +111,16 @@ html, body{
     height: 100px;
     bottom: 1vh;
 }
+
+@font-face {
+  font-family: 'pixel';
+  src: url('/assets/pixel.ttf')  format('truetype');
+}
+#main-paragraph{
+    color:rgb(0, 0, 0); 
+    font-size:30px; 
+    font-family:pixel;
+    position:absolute;
+    top:60px;
+    left:100px;
+    }

@@ -1,0 +1,60 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.landscape {      
+    margin: 0;                              
+    padding: 0;                            
+    height: auto;                         
+    width: 1710px;  
+}
+
+.doghouse {
+    position: absolute;
+    top:630px;
+    left:40px;
+    height:150px;
+    width: auto;
+}
+
+#note {
+    position: absolute;
+    top:200px;
+    left:550px;
+    height: 600px;
+    width: auto;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    background-color: #477338;
+    width: 1710px;
+    height: 100px;
+    bottom: 1vh;
+}
+
+#collar {
+    position:absolute;
+    transform: rotate(10deg);
+    top:830px;
+    left:250px;
+    height:85px;
+    width:auto;
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url('/assets/pixel.ttf')  format('truetype');
+  }
+#main-paragraph{
+    color:rgb(0, 0, 0); 
+    font-size:30px; 
+    font-family:pixel;
+    position:absolute;
+    top:60px;
+    left:100px;
+    }

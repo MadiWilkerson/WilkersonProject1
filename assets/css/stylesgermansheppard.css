@@ -20,6 +20,14 @@ html, body{
     width: auto;
 }
 
+#note {
+    position: absolute;
+    top:200px;
+    left:300px;
+    height: 600px;
+    width: auto;
+}
+
 .box {
     display: inline-block;
     position: relative;
@@ -52,3 +60,16 @@ html, body{
 #germansheppard:hover + #speechbubble {
     opacity: 1;
 }
+
+@font-face {
+    font-family: 'pixel';
+    src: url('/assets/pixel.ttf')  format('truetype');
+  }
+#main-paragraph{
+    color:rgb(0, 0, 0); 
+    font-size:30px; 
+    font-family:pixel;
+    position:absolute;
+    top:60px;
+    left:100px;
+    }
